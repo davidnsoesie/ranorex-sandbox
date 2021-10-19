@@ -1,0 +1,745 @@
+﻿<repository
+id="adb46a25-26d0-46ca-95de-9ba2174c057c"
+name="react_demoRepository">
+	<codegen
+	classname="react_demoRepository"
+	namespace="react_demo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d44b7d9f-63be-4933-9739-19adccdfabd8"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ac3e3aa1-d828-4719-a490-5ec3fd9a759d"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8ccf4365-a576-4d4b-b4d8-eb44c815b391"
+		isrooted="True"
+		name="TestAutomationForGUITestingRanore"
+		refpath="/form[@title='Test Automation for GUI Testing | Ranorex and 4 more pages - Profile 1 - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="8ec5953b-04fc-467a-a4fe-21fea4d2b3dc"
+			name="ContentsSeparator"
+			refimgid="46ce370a-49bb-414c-801c-a8e7e7e61fbf"
+			refpath="/form[@title>'Test Automation for GUI Testing']/container[@name>'Test Automation for GUI Testing']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='TopContainerView']/container[@classname='ContentsSeparator']"
+			robustPath="/form[@title>'Test Automation for GUI Testing']//container[@classname='ContentsSeparator']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'Test Automation for GUI Testing']/container[@name='Microsoft Edge']//container[@classname='ContentsSeparator']
+			</item>
+			<item
+			addcaps="toolbar,uiautomation"
+			capname="toolbar"
+			id="2b1dd869-1a84-4f67-b4e2-5287febf4c6e"
+			name="View1000"
+			refimgid="27d784ef-038f-42da-ad66-d008eb18e212"
+			refpath="/form[@title>'Test Automation for GUI Testing']/container[@name>'Test Automation for GUI Testing']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[@classname='TopContainerView']/toolbar[@automationid='view_1000']"
+			robustPath="/form[@title>'Test Automation for GUI Testing']//toolbar[@automationid='view_1000']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'Test Automation for GUI Testing']/container[@name='Microsoft Edge']//toolbar[@automationid='view_1000']
+			</item>
+			<folder
+			addcaps="container,uiautomation,uiautomationinvoke"
+			capname="container"
+			id="6628fb38-7312-429e-96a6-07df427d89d8"
+			isrooted="True"
+			name="Root1"
+			refpath="/form[@title='React App and 4 more pages - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='61697056']/text[@name='React App']/container[@automationid='root']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,uiautomation,uiautomationinvoke"
+				capname="container"
+				id="cb93dcf1-6233-44f3-8d51-d71528413279"
+				name="Root"
+				refimgid="2a25d59d-a812-492b-b907-1f09df1be119"
+				refpath="/form[@title>'React App and 4 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container[@automationid='root']"
+				robustPath="/form[@title>'Test Automation for GUI Testing']//container[@automationid='root']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='61697056']/?/?/container[@automationid='root']
+				</item>
+				<item
+				addcaps="text,uiautomation"
+				capname="text"
+				id="f28d12ce-5bca-4c55-99de-c4ce0931f64f"
+				name="AddingSolution"
+				refimgid="1b112b6d-223f-4786-b4bc-94cfbd6905eb"
+				refpath="/form[@title>'React App and 4 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/container/text[@name='Adding solution']"
+				robustPath="/form[@title>'Test Automation for GUI Testing']//text[@name='Adding solution']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='61697056']/?/?/container[@automationid='root']/?/?/text[@name='Adding solution']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke"
+				capname="button"
+				id="3baabed4-d4a8-4f4f-bf11-74b63074bc3c"
+				name="Submit"
+				refimgid="997c8686-afa7-41e0-ae74-896cdc40f8c9"
+				refpath="/form[@title>'React App and 4 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/button[@name='Submit']"
+				robustPath="/form[@title>'Test Automation for GUI Testing']//button[@name='Submit']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='61697056']/?/?/container[@automationid='root']/button[@name='Submit']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="611ce3c0-b854-40ee-b1ec-bffcb474a447"
+				name="None"
+				refimgid="f63adb68-c9fd-41ff-9f2b-fbab24b70886"
+				refpath="/form[@title>'React App and 4 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/text[@orientation='None']"
+				robustPath="/form[@title>'Test Automation for GUI Testing']//container[@automationid='root']/text[@orientation='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='61697056']/?/?/container[@automationid='root']/text[@orientation='None']
+				</item>
+				<basepath>
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='61697056']/?/?/container[@automationid='root']
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="8fff7e63-56d3-4366-a498-13680e7e326b"
+			name="None"
+			refimgid="4d7a1de9-e3c2-4c33-b2a7-5df130aed9f2"
+			refpath="/form[@title>'React App and 5 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/text[@orientation='None']"
+			robustPath="/form[@title>'Test Automation for GUI Testing']//container[@automationid='root']/text[@orientation='None']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="2b8a8398-6db9-4f6a-8165-4bae146d8eb9"
+			name="Submit"
+			refimgid="8fd2e5c5-f92a-4cfb-9b3e-1cdb3d951640"
+			refpath="/form[@title>'React App and 5 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/button[@name='Submit']"
+			robustPath="/form[@title>'Test Automation for GUI Testing']//button[@name='Submit']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/button[@name='Submit']
+			</item>
+			<folder
+			addcaps="container,uiautomation,uiautomationinvoke"
+			capname="container"
+			id="ed766b88-9f08-48c3-ade0-245c79137dc5"
+			isrooted="True"
+			name="Root2"
+			refpath="/form[@title='React App and 4 more pages - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='61697056']/text[@name='React App']/container[@automationid='root']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,uiautomation,uiautomationinvoke"
+				capname="container"
+				id="7fa159bd-1fe5-4e99-a136-ef9aaecf3d93"
+				name="Root"
+				refimgid="fd2f32cc-df05-4110-b271-9351e1acc186"
+				refpath="/form[@title>'React App and 6 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container[@automationid='root']"
+				robustPath="/form[@title>'Test Automation for GUI Testing']//container[@automationid='root']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27106816']/?/?/container[@automationid='root']
+				</item>
+				<item
+				addcaps="text,uiautomation"
+				capname="text"
+				id="ad20b85e-47e3-4f20-8bee-2b204ca62899"
+				name="VALIDATETHISTEXT"
+				refimgid="cbaf4da9-cfa8-449e-8a51-5db95518a94c"
+				refpath="/form[@title='React App and 6 more pages - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='27106816']/text[@name='React App']/container[@automationid='root']/container[@orientation='None']/text[@name='VALIDATE THIS TEXT']"
+				robustPath="/form[@title>'Test Automation for GUI Testing']//text[@name='VALIDATE THIS TEXT']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27106816']/?/?/container[@automationid='root']/?/?/text[@name='VALIDATE THIS TEXT']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke"
+				capname="button"
+				id="98186afc-28a9-4645-b1eb-d99745f96e02"
+				name="Submit1"
+				refimgid="2c41e49c-d4fa-482a-b5a3-1138a8e07868"
+				refpath="/form[@title>'React App and 6 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/button[@name='Submit']"
+				robustPath="/form[@title>'Test Automation for GUI Testing']//button[@name='Submit']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27106816']/?/?/container[@automationid='root']/button[@name='Submit']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="3bc09b57-cc3a-4045-a331-195a8d5944fe"
+				name="None1"
+				refimgid="a8ae221f-9e38-44f1-9488-a41e784a7083"
+				refpath="/form[@title>'React App and 6 more pages']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/text[@orientation='None']"
+				robustPath="/form[@title>'Test Automation for GUI Testing']//container[@automationid='root']/text[@orientation='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27106816']/?/?/container[@automationid='root']/text[@orientation='None']
+				</item>
+				<basepath>
+					/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27106816']/?/?/container[@automationid='root']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title&gt;'Test Automation for GUI Testing']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMsSURBVDhPbdBrSFNhHAbwY8vUcs5lWVDghz6V
+2tRNjUo/5KWLzsuclw9NMbpoVyHLeV1WZOFis5VGWqJEaUSBYRmZu3nSdLPcjs2pLRNMyZBQ0qLs
+6exsYYQP/OF8+D+/930PsVT42s8twbrxnyF6G4JJC8J7erHd2DkRYeo44lxZOqGaOZVA83WBr51C
+kPYjgvTD4JEU+N1GbDN0YhfVirihuxNi241MZ2UxYeq5EYFmFiGaLwjWfgJP+wGBukEE6E0I6jIg
+rJdE5Nun2GttQNqYEpmT5yucVfvJP1Sh6nnwNTPgtU8isP0jAnRW+OsobNH1YyvZB8HrTux88xR7
+LI1IH6vEwc+nkfslV8QAfPX3hcDWaayr7AG3XAef8zr4XuzApge9DGAfHtlN/4cWxJjvINV2AQc+
+HcWxqf16QtA2o/a7PQp2uRGcywPgygfho7BirdICX7kRG1Qk/F90IaRLix2GR9hLXUPKUCmyx48g
+ZzLjB7G5eQoesn6sqrCCfWUYHPkIuIr38Llmw3q5Wbe2ypzv10B+C+l8gp099YjtV0I0WADJ6CEc
+HheDWKO0wf2cBR4XrTQy5EBkveDur3/OvI8O72HH2VCyCZGvVYg1FCPRfAoZ1kxk25JALC+hsEJm
+gVu5A1l5iYYkjWAn1+Q7+0SQuiE6TKtCJClDVPcZCPuykWZOhsS6e5ZgFVELrmXv4Mogg/AoeQPP
+JBU8xbWvnH1C8FJxJVxdgUh9PqJf5UJoyICoLwHpVEwp4SIdGGEVD4BV6kDcjz6Dp6ga7NTb8BLX
+ZTDAiwvR4S+lcxGaE4jSZ2Fft2hWZIxNZ3RCaopeVkj9XkYjy2nE7Xg7DdTQwB07MMFOqT3pl1Xv
+7lheDDeuMsD5SUdKtbkUUmAQKf2EvzewT8oteCXfnPVKqn7MSVTlcYRVed7ximFu3FUsIkUmAVFA
+TbsUDTCIR2Yz2OJaGqhjAI7oJjhJ1fRch3dCFbyFinnvePkxR/nfSM0T9puwCt5ilR2wn74EwE1Q
+5jgb/0U2tJG+SRmNWFmFpt/uOW3wlDTBS3Ifq7Pu/aKBhtXCqm3ObToE8Qe3UugpYk4+RgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="122b9660-6474-483d-9c38-5b3fdc0f7ca9"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="2450c906-3f04-469f-acf5-e01bce7fd6c4"
+			name="TrayClockWClass"
+			refimgid="4e8f82d2-2da9-41ad-98e1-d4c3c4413bdf"
+			refpath="/menubar[@processname='explorer']/container[@controlid='303']/text[@class='TrayClockWClass']"
+			robustPath="/menubar[@processname='explorer']/?/?/text[@class='TrayClockWClass']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/?/?/text[@class='TrayClockWClass']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5a960a51-8708-4ba6-b84b-374bed26576b"
+			name="MicrosoftEdge"
+			refimgid="fde0dcc0-9a41-4d9e-a761-102484841810"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='Microsoft Edge']"
+			robustPath="/menubar[@processname='explorer']//button[@accessiblename='Microsoft Edge']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='Microsoft Edge']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="87fa683f-4620-46d2-9ad4-02a3b6457994"
+		isrooted="True"
+		name="NewTabProfile1MicrosoftEdge"
+		refimgid="105928f9-2ed5-40b4-8287-5927ad6e56c8"
+		refpath="/form[@title='New tab - Profile 1 - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="container,uiautomation"
+			capname="container"
+			id="0fa6907c-dda1-423c-9388-6b63a00dc600"
+			isrooted="True"
+			name="NewTabMicrosoftEdge"
+			refpath="/form[@title='New tab - Profile 1 - Microsoft​ Edge']/container[@name='New tab - Microsoft Edge']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,uiautomation"
+				capname="container"
+				id="cab4a33e-12ca-4578-be4e-3064fdbd25ba"
+				name="SomeContainer1"
+				refpath="/form[@title>'New tab - Profile 1 - Microsoft​']/container[@name='New tab - Microsoft Edge']/container/container/container/container"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']/container[@name='New tab - Microsoft Edge']/container/container/container/container"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name='New tab - Microsoft Edge']/container/?/?/container/container
+				</item>
+				<item
+				addcaps="container,uiautomation"
+				capname="container"
+				id="99594d3f-f158-44f0-bcfc-0f0f94efe085"
+				name="SomeContainer"
+				refpath="/form[@title>'New tab - Profile 1 - Microsoft​']/container[@name='New tab - Microsoft Edge']/container[2]/container/container/container"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']//container/container"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name='New tab - Microsoft Edge']/container[2]/?/?/container/container
+				</item>
+				<item
+				addcaps="container,uiautomation"
+				capname="container"
+				id="f14deca0-d4f7-4f6d-beaf-217f45b2dded"
+				name="DisneyPlus"
+				refimgid="d76d4154-a5ec-41b8-b8db-21242167ac93"
+				refpath="/form[@title>'New tab - Profile 1 - Microsoft​']/container[@name='New tab - Microsoft Edge']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container[@automationid='headerGrid']/container[@automationid='topSitesHolder']/container[@automationid='topSitesCommon']/statusbar/container/container[@name='Disney+']"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']//container[@name='Disney+']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name='New tab - Microsoft Edge']/container[@name='Microsoft Edge']//container[@automationid='8680832']/?/?/container[@automationid='headerGrid']/container[@automationid='topSitesHolder']/container[@automationid='topSitesCommon']/?/?/container[@automationid='TopSitesCommon']/container[@name='Disney+']
+				</item>
+				<basepath>
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name='New tab - Microsoft Edge']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,uiautomation,uiautomationinvoke"
+			capname="container"
+			id="17dc2e86-d21d-448a-919d-56952a025c6d"
+			isrooted="True"
+			name="Root"
+			refpath="/form[@title='React App - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='29469728']/text[@name='React App']/container[@automationid='root']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,uiautomation"
+				capname="text"
+				id="616115a3-ddc4-4bc3-9f0c-2ca3e39d3636"
+				name="ValidateThisText"
+				refimgid="2193e9b5-951e-4d04-ab16-2e2b6858aa98"
+				refpath="/form[@title='React App - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='29469728']/text[@name='React App']/container[@automationid='root']/container[@orientation='None']/text[@name='Validate this text']"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']//text[@name='Validate this text']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='29469728']/?/?/container[@automationid='root']/?/?/text[@name='Validate this text']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke"
+				capname="button"
+				id="a25822d6-466c-4ab8-b56a-6072b8381d82"
+				name="Submit"
+				refimgid="14938061-5ae3-4802-b8c7-4d63e13eb6aa"
+				refpath="/form[@title>'React App - Profile 1 - Microsoft​']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/button[@name='Submit']"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']//button[@name='Submit']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='29469728']/?/?/container[@automationid='root']/button[@name='Submit']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="4ff403bc-3880-4368-b888-6de6842c4ec8"
+				name="None"
+				refimgid="dbc29f50-f545-46b3-83d8-ed2329d9a5b0"
+				refpath="/form[@title>'React App - Profile 1 - Microsoft​']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/text[@orientation='None']"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']//container[@automationid='root']/text[@orientation='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='29469728']/?/?/container[@automationid='root']/text[@orientation='None']
+				</item>
+				<basepath>
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='29469728']/?/?/container[@automationid='root']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,uiautomation,uiautomationinvoke"
+			capname="container"
+			id="f50c1afa-cce7-4030-bca0-0b6d475a1c2b"
+			isrooted="True"
+			name="Root1"
+			refpath="/form[@title='React App and 1 more page - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='53977248']/text[@name='React App']/container[@automationid='root']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,uiautomation"
+				capname="text"
+				id="161ed19b-6bce-4da3-bec6-e167ca99027f"
+				name="Validate"
+				refimgid="cbe05ab8-5f3c-4bc0-9829-21615eab1141"
+				refpath="/form[@title='React App and 1 more page - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='53977248']/text[@name='React App']/container[@automationid='root']/container[@orientation='None']/text[@name='validate']"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']//text[@name='validate']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='53977248']/?/?/container[@automationid='root']/?/?/text[@name='validate']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke"
+				capname="button"
+				id="9073c142-7b58-4dd3-b643-cad61a88c44f"
+				name="Submit"
+				refimgid="71b71c47-b940-4f60-93e9-ccc579bb52d3"
+				refpath="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/button[@name='Submit']"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']//button[@name='Submit']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='53977248']/?/?/container[@automationid='root']/button[@name='Submit']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="c7adb92c-2951-4e9a-8dc7-7aa331e3d7a9"
+				name="InputArea"
+				refimgid="292fe952-4682-4d44-876d-19474241ad0e"
+				refpath="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/text[@automationid='input-area']"
+				robustPath="/form[@title>'New tab - Profile 1 - Microsoft​']//text[@automationid='input-area']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='53977248']/?/?/container[@automationid='root']/text[@automationid='input-area']
+				</item>
+				<basepath>
+					/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='53977248']/?/?/container[@automationid='root']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title&gt;'New tab - Profile 1 - Microsoft&#8203;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMsSURBVDhPbdBrSFNhHAbwY8vUcs5lWVDghz6V
+2tRNjUo/5KWLzsuclw9NMbpoVyHLeV1WZOFis5VGWqJEaUSBYRmZu3nSdLPcjs2pLRNMyZBQ0qLs
+6exsYYQP/OF8+D+/930PsVT42s8twbrxnyF6G4JJC8J7erHd2DkRYeo44lxZOqGaOZVA83WBr51C
+kPYjgvTD4JEU+N1GbDN0YhfVirihuxNi241MZ2UxYeq5EYFmFiGaLwjWfgJP+wGBukEE6E0I6jIg
+rJdE5Nun2GttQNqYEpmT5yucVfvJP1Sh6nnwNTPgtU8isP0jAnRW+OsobNH1YyvZB8HrTux88xR7
+LI1IH6vEwc+nkfslV8QAfPX3hcDWaayr7AG3XAef8zr4XuzApge9DGAfHtlN/4cWxJjvINV2AQc+
+HcWxqf16QtA2o/a7PQp2uRGcywPgygfho7BirdICX7kRG1Qk/F90IaRLix2GR9hLXUPKUCmyx48g
+ZzLjB7G5eQoesn6sqrCCfWUYHPkIuIr38Llmw3q5Wbe2ypzv10B+C+l8gp099YjtV0I0WADJ6CEc
+HheDWKO0wf2cBR4XrTQy5EBkveDur3/OvI8O72HH2VCyCZGvVYg1FCPRfAoZ1kxk25JALC+hsEJm
+gVu5A1l5iYYkjWAn1+Q7+0SQuiE6TKtCJClDVPcZCPuykWZOhsS6e5ZgFVELrmXv4Mogg/AoeQPP
+JBU8xbWvnH1C8FJxJVxdgUh9PqJf5UJoyICoLwHpVEwp4SIdGGEVD4BV6kDcjz6Dp6ga7NTb8BLX
+ZTDAiwvR4S+lcxGaE4jSZ2Fft2hWZIxNZ3RCaopeVkj9XkYjy2nE7Xg7DdTQwB07MMFOqT3pl1Xv
+7lheDDeuMsD5SUdKtbkUUmAQKf2EvzewT8oteCXfnPVKqn7MSVTlcYRVed7ximFu3FUsIkUmAVFA
+TbsUDTCIR2Yz2OJaGqhjAI7oJjhJ1fRch3dCFbyFinnvePkxR/nfSM0T9puwCt5ilR2wn74EwE1Q
+5jgb/0U2tJG+SRmNWFmFpt/uOW3wlDTBS3Ifq7Pu/aKBhtXCqm3ObToE8Qe3UugpYk4+RgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c3cc2416-b6ec-4a0f-8cda-9171a52962fb"
+		isrooted="True"
+		name="Explorer1"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="a9cd4678-c822-45ce-968b-e23d24731017"
+			name="ReactAppAnd1MorePageProfile1"
+			refimgid="b4b78106-d902-4477-a55f-d80ac322a2fc"
+			refpath="/form[@title='']/list/listitem[@accessiblename>'React App and 1 more page']"
+			robustPath="/form[@title='']/?/?/listitem[@accessiblename>'React App and 1 more page']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/listitem[@accessiblename&gt;'React App and 1 more page']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="712b75b7-9147-44f8-9848-ba634993efa5"
+		isrooted="True"
+		name="ReactAppAnd1MorePageProfile1"
+		refpath="/form[@title='React App and 1 more page - Profile 1 - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="container,uiautomation,uiautomationinvoke"
+			capname="container"
+			id="caabc771-b73d-44c4-85a4-72dbeaf40eff"
+			isrooted="True"
+			name="Root"
+			refpath="/form[@title='React App and 1 more page - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='24220640']/text[@name='React App']/container[@automationid='root']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,uiautomation"
+				capname="text"
+				id="a79e4e9a-8557-4d82-ace7-ac605d0f9866"
+				name="ValidateThisText"
+				refimgid="13f4ae30-a609-42eb-97a6-28d095f983b7"
+				refpath="/form[@title='React App and 1 more page - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='24220640']/text[@name='React App']/container[@automationid='root']/container[@orientation='None']/text[@name='Validate this text']"
+				robustPath="/form[@title>'React App and 1 more page']//text[@name='Validate this text']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/?/?/text[@name='Validate this text']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke"
+				capname="button"
+				id="57b3d711-b2a1-4a77-8b90-1ec3cf0060c5"
+				name="Submit"
+				refimgid="4e6e433f-e084-41e2-a7f6-ffab88339c74"
+				refpath="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/button[@name='Submit']"
+				robustPath="/form[@title>'React App and 1 more page']//button[@name='Submit']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/button[@name='Submit']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="bafb7846-04b3-4b52-b952-0548b7e7b3b5"
+				name="InputArea"
+				refimgid="4d07d5e1-b4bc-418a-b03f-581b004dac09"
+				refpath="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/text[@automationid='input-area']"
+				robustPath="/form[@title>'React App and 1 more page']//text[@automationid='input-area']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/text[@automationid='input-area']
+				</item>
+				<basepath>
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,uiautomation,uiautomationinvoke"
+			capname="container"
+			id="e683db5d-1f03-4eb1-90af-d0bf456c86fe"
+			isrooted="True"
+			name="Root2"
+			refpath="/form[@title='React App and 1 more page - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='27064064']/text[@name='React App']/container[@automationid='root']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,uiautomation,uiautomationinvoke"
+				capname="container"
+				id="41decd44-755f-4dba-8d6e-295e3f1d5bdd"
+				name="Root1"
+				refimgid="a7326fe6-71d9-480e-b688-02014791b80c"
+				refpath="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container[@automationid='root']"
+				robustPath="/form[@title>'React App and 1 more page']//container[@automationid='root']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27064064']/?/?/container[@automationid='root']
+				</item>
+				<item
+				addcaps="text,uiautomation"
+				capname="text"
+				id="c4574601-6800-41f0-81ec-8df1ff45ad43"
+				name="ValidateThisText"
+				refimgid="e98bf196-603c-4b34-8936-91a56a457c31"
+				refpath="/form[@title='React App and 1 more page - Profile 1 - Microsoft​ Edge']/container[@name='React App - Microsoft Edge']/container[@name='Microsoft Edge']/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container[@classname='View']/container[@classname='View']/container[@automationid='27064064']/text[@name='React App']/container[@automationid='root']/container[@orientation='None']/text[@name='validate this text']"
+				robustPath="/form[@title>'React App and 1 more page']//text[@name='validate this text']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27064064']/?/?/container[@automationid='root']/?/?/text[@name='validate this text']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke"
+				capname="button"
+				id="116931cb-713f-4e44-b5ab-b2b4c648ba0d"
+				name="Submit"
+				refimgid="2d45fe18-225b-4b48-9069-3b2091a497ec"
+				refpath="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/button[@name='Submit']"
+				robustPath="/form[@title>'React App and 1 more page']//button[@name='Submit']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27064064']/?/?/container[@automationid='root']/button[@name='Submit']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="0660f389-dc6d-4d94-bdfa-381e8e72c028"
+				name="InputArea"
+				refimgid="70268ac0-c445-43c3-b044-20b7ca89faa6"
+				refpath="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container/container[@classname='GlassBrowserFrameView']/container[@classname='BrowserView']/container[3]/container/container/container/text/container/text[@automationid='input-area']"
+				robustPath="/form[@title>'React App and 1 more page']//text[@automationid='input-area']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27064064']/?/?/container[@automationid='root']/text[@automationid='input-area']
+				</item>
+				<basepath>
+					/form[@title&gt;'React App and 1 more page']/container[@name&gt;'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27064064']/?/?/container[@automationid='root']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title&gt;'React App and 1 more page']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAN7SURBVDhPZdBrTJNXHAbwA6kit7flNhezbJkf
+ZsatlhYiWcW4MTamBdEXUUEBjRmXkWUfGkqV1W0EwoAhDpgOOxRvUfGLWi/cSvu2AlKhtC+lLRWc
+BNymW1DQbHP02duC2dye5Hw7/995/of8N2LtE2mc7meHSP/j87WMC0KDDXF9Jvc6k+FR0khXzdK1
+l6MCfN/pnhfGa+c7JL2zEOmmsZaZgJBxItZghahvCOtMDDZaryDVeWYuY/JY0c5pVfjSOCEJ3X8I
+43ueMhLtY7dY9whC3X3E6l2IYWyIZiyIMZgRf9uIDSMapLl+AH2vYW7PzKHqwllFiBeQ9PzeIemZ
+d4u512O6ZhB18y6i9XZE6a3csSCKMUPcb4B0WINUeysH1CP3gWL241+KPuJ2/lMa1/MMb511IUx5
+FdRnFyD49AzC5afxZhuDSP0IBwxDdMuIRJMGKawa9EQl8mdKUPRwt5mIrz+Zfr1lAsGqAfCrrBDU
+2BBawyK8ehBhBzXuVbXXENnZB0lfF6Smdnxg/Q7bxr9C7lQBCn7KWiCrT04h4JAFgZV2BFc7wa8d
+R0idE+EVpr8iKozHIw5qGlarrz8WGy9DOnACKeavkW5TYqerAPvu0yBh9Xfh98UY/CscCKxyeBGq
+nGuTf/bCqyXnI16ru+X/9rn2wgRdG5L6v8H7gweQbinCLmc29k6mgvDKR7FMZeMQuxcJqHQgKPvU
+86CtaoX3h7lI9E0bEnSNC1JDFZIH5JDd2YcdNhp5ruQ54qtkF3jlNixXjcHvSzsCSvsRRLcgOLO1
+aWVOW6AHEGuPNCbqKrCeUeA9YzFkphzQZtmvuyzJBcS3jJ3yPTCKF4h/8U0Eb2/1AA8puiXL26C7
+Oi1R+/n59b0ljnf1eUObb2c008Mp2dnODylCFGy+TxmLF4hf4Q3P8CJCq+9R274/vKr4ZJhUXxaR
+1Ls/ZqNh7xppc2HIK7LDKyMzVcs9DxBSah33UY56kWXyQQ447gUoWg0OAJVx9Bm1pWmISvu2VyBr
+GOZvrp8TbKobC9lUE70EmEWkjJ30US42Cci79DKw9Rj4Gc3gpzdCkNYAgaz+Nw745J8GKvCIwprC
+ISZPE578Doe0Lw7/H3jAlx3JeyO3dcXi8L8jH1lDStkSHwU7xZMPuv2KO71QUP5FhOa0PQ3NPFrL
+rSFZus2FkL8BG1AGPOJ8Ji0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b542ea33-a686-4ec5-95ec-85115e3453e3"
+		isrooted="True"
+		name="ReactApp"
+		refimgid="936a5289-b785-461d-b68b-55c243a2dfbb"
+		refpath="/dom[@domain='localhost:3000']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="2cdd7e3e-d646-4312-94a7-b7586695d551"
+			isrooted="True"
+			name="Container"
+			refpath="/dom[@domain='localhost:3000']//div[#'root']/div/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="a79be58c-856d-42b2-afd4-e765255d7bed"
+				name="SubContainer"
+				refimgid="0c0634db-5d28-4a16-bc7f-2fffededca84"
+				refpath="/dom[@domain='localhost:3000']//div[#'root']/div/div/div[1]"
+				robustPath="/dom[@domain='localhost:3000']//div[#'root']/div/div/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost:3000']//div[#'root']/div/div/div[1]
+				</item>
+				<item
+				addcaps="button,webelement,buttontag"
+				capname="buttontag"
+				id="c1a36e3c-67e3-419e-935f-461235c3569e"
+				name="Submit"
+				refimgid="793a25ad-9490-4e79-a58e-3b2e81ab4167"
+				refpath="/dom[@domain='localhost:3000']//div[#'root']/div/div/div[1]/button[@innertext='Submit']"
+				robustPath="/dom[@domain='localhost:3000']//div[#'root']//button[@innertext='Submit']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost:3000']//div[#'root']/div/div/div[1]/button[@innertext='Submit']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="8badb41a-1f1a-4e42-b0d0-537790b21950"
+				name="EnteringTextForValidation"
+				refimgid="45b56331-3948-481e-a8b4-ae1e943c7add"
+				refpath="/dom[@domain='localhost:3000']//div[#'root']/div/div/div[2]/p[@innertext='entering text for validation']"
+				robustPath="/dom[@domain='localhost:3000']//div[#'root']//p[@innertext>'entering text for validat']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost:3000']//div[#'root']/div/div/div[2]/p[@innertext&gt;'entering text for validat']
+				</item>
+				<basepath>
+					/dom[@domain='localhost:3000']//div[#'root']/div/div
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='localhost:3000']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

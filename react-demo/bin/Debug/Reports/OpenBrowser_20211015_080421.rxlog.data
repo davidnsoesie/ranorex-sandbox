@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.1m"
+		durationms="123270"
+		type="root"
+		rid="a5ea47abb1f5a98"
+		totalerrorcount="0"
+		totalwarningcount="6"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.2.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3514x1916"
+		timestamp="10/15/2021 8:04:27 AM"
+		timestampiso="2021-10-15T15:04:27"
+		endtime="10/15/2021 8:06:30 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.933"
+			timeRelativeToTestModuleStartTime="00:17.933"
+			timeWallClock="08:04:45"
+			time="00:17.933"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://localhost:3000' with browser 'EdgeChromium' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.564"
+			timeRelativeToTestModuleStartTime="00:18.564"
+			timeWallClock="08:04:46"
+			time="00:18.564"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TestAutomationForGUITestingRanore.None' at 194;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Test Automation for GUI Testing']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				itempath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				fullname="react_demoRepository.TestAutomationForGUITestingRanore.None"
+				id="8fff7e6356d34366a49813680e7e326b"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.369"
+			timeRelativeToTestModuleStartTime="00:53.369"
+			timeWallClock="08:05:20"
+			time="00:53.369"
+			level="Warn"
+			category="CEF">
+			<message>
+				UI elements in your CEF AUT can’t be identified because the remote debugging port isn’t enabled in your AUT or can’t be found. Make sure you’ve enabled it and set it to 8081.<br/>Process: 'msedge' (pid 5132)<br/>https://www.ranorex.com/help/v10.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="cef-chrome-debug-protocol-NotFound"
+				showInProgressDialog="False"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.486"
+			timeRelativeToTestModuleStartTime="01:01.486"
+			timeWallClock="08:05:28"
+			time="01:01.486"
+			level="Info"
+			category="User">
+			<message>
+				Item 'None' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Info"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.503"
+			timeRelativeToTestModuleStartTime="01:01.503"
+			timeWallClock="08:05:29"
+			time="01:01.503"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'react_demoRepository.TestAutomationForGUITestingRanore'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				invertedPath="self::text[@orientation='None']/parent::container[@automationid='root']/parent::?/parent::?/parent::container[@automationid='41681536']/ancestor-or-self::container/parent::container[@classname='BrowserView']/parent::?/parent::?/parent::container[@name='Microsoft Edge']/parent::container[@name>'React App - Microsoft Edg']/parent::*"
+				basePathToCachedFolder="/form[@title>'Test Automation for GUI Testing']"
+				invertedBasePath="self::form[@title>'Test Automation for GUI Testing']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'Test Automation for GUI Testing']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:02.675"
+			timeRelativeToTestModuleStartTime="01:02.675"
+			timeWallClock="08:05:30"
+			time="01:02.675"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Addi' with focus on 'TestAutomationForGUITestingRanore.None'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Test Automation for GUI Testing']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				itempath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				fullname="react_demoRepository.TestAutomationForGUITestingRanore.None"
+				id="8fff7e6356d34366a49813680e7e326b"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.499"
+			timeRelativeToTestModuleStartTime="01:09.499"
+			timeWallClock="08:05:37"
+			time="01:09.499"
+			level="Info"
+			category="User">
+			<message>
+				Item 'None' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="91"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.511"
+			timeRelativeToTestModuleStartTime="01:09.511"
+			timeWallClock="08:05:37"
+			time="01:09.511"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'react_demoRepository.TestAutomationForGUITestingRanore'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				invertedPath="self::text[@orientation='None']/parent::container[@automationid='root']/parent::?/parent::?/parent::container[@automationid='41681536']/ancestor-or-self::container/parent::container[@classname='BrowserView']/parent::?/parent::?/parent::container[@name='Microsoft Edge']/parent::container[@name>'React App - Microsoft Edg']/parent::*"
+				basePathToCachedFolder="/form[@title>'Test Automation for GUI Testing']"
+				invertedBasePath="self::form[@title>'Test Automation for GUI Testing']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'Test Automation for GUI Testing']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="91"
+				loglvl="Warn"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.136"
+			timeRelativeToTestModuleStartTime="01:10.136"
+			timeWallClock="08:05:37"
+			time="01:10.136"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ng test for' with focus on 'TestAutomationForGUITestingRanore.None'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Test Automation for GUI Testing']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				itempath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				fullname="react_demoRepository.TestAutomationForGUITestingRanore.None"
+				id="8fff7e6356d34366a49813680e7e326b"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.050"
+			timeRelativeToTestModuleStartTime="01:17.050"
+			timeWallClock="08:05:44"
+			time="01:17.050"
+			level="Info"
+			category="User">
+			<message>
+				Item 'None' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="95"
+				loglvl="Info"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.060"
+			timeRelativeToTestModuleStartTime="01:17.060"
+			timeWallClock="08:05:44"
+			time="01:17.060"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'react_demoRepository.TestAutomationForGUITestingRanore'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				invertedPath="self::text[@orientation='None']/parent::container[@automationid='root']/parent::?/parent::?/parent::container[@automationid='41681536']/ancestor-or-self::container/parent::container[@classname='BrowserView']/parent::?/parent::?/parent::container[@name='Microsoft Edge']/parent::container[@name>'React App - Microsoft Edg']/parent::*"
+				basePathToCachedFolder="/form[@title>'Test Automation for GUI Testing']"
+				invertedBasePath="self::form[@title>'Test Automation for GUI Testing']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'Test Automation for GUI Testing']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="95"
+				loglvl="Warn"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.511"
+			timeRelativeToTestModuleStartTime="01:17.511"
+			timeWallClock="08:05:45"
+			time="01:17.511"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}{Back}{Back}text' with focus on 'TestAutomationForGUITestingRanore.None'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Test Automation for GUI Testing']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				itempath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				fullname="react_demoRepository.TestAutomationForGUITestingRanore.None"
+				id="8fff7e6356d34366a49813680e7e326b"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:24.495"
+			timeRelativeToTestModuleStartTime="01:24.495"
+			timeWallClock="08:05:51"
+			time="01:24.495"
+			level="Info"
+			category="User">
+			<message>
+				Item 'None' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="99"
+				loglvl="Info"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:24.503"
+			timeRelativeToTestModuleStartTime="01:24.503"
+			timeWallClock="08:05:52"
+			time="01:24.503"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'react_demoRepository.TestAutomationForGUITestingRanore'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/text[@orientation='None']"
+				invertedPath="self::text[@orientation='None']/parent::container[@automationid='root']/parent::?/parent::?/parent::container[@automationid='41681536']/ancestor-or-self::container/parent::container[@classname='BrowserView']/parent::?/parent::?/parent::container[@name='Microsoft Edge']/parent::container[@name>'React App - Microsoft Edg']/parent::*"
+				basePathToCachedFolder="/form[@title>'Test Automation for GUI Testing']"
+				invertedBasePath="self::form[@title>'Test Automation for GUI Testing']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'Test Automation for GUI Testing']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="99"
+				loglvl="Warn"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.043"
+			timeRelativeToTestModuleStartTime="01:25.043"
+			timeWallClock="08:05:52"
+			time="01:25.043"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TestAutomationForGUITestingRanore.Submit' at 192;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Test Automation for GUI Testing']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/button[@name='Submit']"
+				itempath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/button[@name='Submit']"
+				fullname="react_demoRepository.TestAutomationForGUITestingRanore.Submit"
+				id="2b8a83986db94f6a81654bae146d8eb9"
+				timeout="60000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:02.796"
+			timeRelativeToTestModuleStartTime="02:02.796"
+			timeWallClock="08:06:30"
+			time="02:02.796"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Submit' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="103"
+				loglvl="Info"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:02.804"
+			timeRelativeToTestModuleStartTime="02:02.804"
+			timeWallClock="08:06:30"
+			time="02:02.804"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'react_demoRepository.TestAutomationForGUITestingRanore'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='41681536']/?/?/container[@automationid='root']/button[@name='Submit']"
+				invertedPath="self::button[@name='Submit']/parent::container[@automationid='root']/parent::?/parent::?/parent::container[@automationid='41681536']/ancestor-or-self::container/parent::container[@classname='BrowserView']/parent::?/parent::?/parent::container[@name='Microsoft Edge']/parent::container[@name>'React App - Microsoft Edg']/parent::*"
+				basePathToCachedFolder="/form[@title>'Test Automation for GUI Testing']"
+				invertedBasePath="self::form[@title>'Test Automation for GUI Testing']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'Test Automation for GUI Testing']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="103"
+				loglvl="Warn"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

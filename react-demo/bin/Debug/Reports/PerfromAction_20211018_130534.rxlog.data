@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="68242"
+		type="root"
+		rid="1b2584916786d825"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.2.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="2894x1874"
+		timestamp="10/18/2021 1:05:39 PM"
+		timestampiso="2021-10-18T20:05:39"
+		endtime="10/18/2021 1:06:47 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="PerfromAction">
+		<detail>
+			PerfromAction
+		</detail>
+		<errormessage>
+			Item 'react_demoRepository.ReactAppAnd1MorePageProfile1.Root2.Root1' is no Container.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.617"
+			timeRelativeToTestModuleStartTime="00:22.617"
+			timeWallClock="13:06:01"
+			time="00:22.617"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ReactAppAnd1MorePageProfile1.Root2.Root1' at 614;150.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27064064']/?/?/container[@automationid='root']"
+				itempath=""
+				fullname="react_demoRepository.ReactAppAnd1MorePageProfile1.Root2.Root1"
+				id="41decd44755f4dba8d6e295e3f1d5bdd"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\PerfromAction.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.861"
+			timeRelativeToTestModuleStartTime="01:07.861"
+			timeWallClock="13:06:47"
+			time="01:07.861"
+			level="Info"
+			category="User"
+			errimg="images_PerfromA_e7e6dd85\PerfromA_e7e6dd85_49f66d44_trace.jpg"
+			errthumb="images_PerfromA_e7e6dd85\PerfromA_e7e6dd85_49f66d44_trace_thumb.jpg">
+			<message>
+				Item 'Root1' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\PerfromAction.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.867"
+			timeRelativeToTestModuleStartTime="01:07.867"
+			timeWallClock="13:06:47"
+			time="01:07.867"
+			level="Warn"
+			category="Repository"
+			errimg="images_PerfromA_e7e6dd85\PerfromA_e7e6dd85_49f66d44_trace.jpg"
+			errthumb="images_PerfromA_e7e6dd85\PerfromA_e7e6dd85_49f66d44_trace_thumb.jpg">
+			<message>
+				Failed to update the cached element for folder 'react_demoRepository.ReactAppAnd1MorePageProfile1'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27064064']/?/?/container[@automationid='root']"
+				invertedPath="self::container[@automationid='root']/parent::?/parent::?/parent::container[@automationid='27064064']/ancestor-or-self::container/parent::container[@classname='BrowserView']/parent::?/parent::?/parent::container[@name='Microsoft Edge']/parent::container[@name>'React App - Microsoft Edg']/parent::*"
+				basePathToCachedFolder="/form[@title>'React App and 1 more page']"
+				invertedBasePath="self::form[@title>'React App and 1 more page']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'React App and 1 more page']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\PerfromAction.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.887"
+			timeRelativeToTestModuleStartTime="01:07.887"
+			timeWallClock="13:06:47"
+			time="01:07.887"
+			level="Error"
+			category="Module"
+			errimg="images_PerfromA_e7e6dd85\PerfromA_e7e6dd85_49f66d44_trace.jpg"
+			errthumb="images_PerfromA_e7e6dd85\PerfromA_e7e6dd85_49f66d44_trace_thumb.jpg">
+			<message>
+				Item 'react_demoRepository.ReactAppAnd1MorePageProfile1.Root2.Root1' is no Container.<br/>The element does not support the required capability 'container'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at react_demo.react_demoRepositoryFolders.Root2Folder1.get_Root1() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\react_demoRepository.cs:line 1462&#13;&#10;   at react_demo.PerfromAction.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\PerfromAction.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\PerfromAction.cs"
+				codeline="83"
+				loglvl="Error"
+				id="41decd44755f4dba8d6e295e3f1d5bdd"
+				path="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='27064064']/?/?/container[@automationid='root']"
+				fullname="react_demoRepository.ReactAppAnd1MorePageProfile1.Root2.Root1"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="69950"
+		type="root"
+		rid="a6e238d8b19d4e6"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.2.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3010x1914"
+		timestamp="10/18/2021 4:22:58 AM"
+		timestampiso="2021-10-18T11:22:58"
+		endtime="10/18/2021 4:24:08 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<errormessage>
+			Item 'react_demoRepository.NewTabProfile1MicrosoftEdge.Root.None' is no Text.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.670"
+			timeRelativeToTestModuleStartTime="00:15.670"
+			timeWallClock="04:23:14"
+			time="00:15.670"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://localhost:3000' with browser 'EdgeChromium' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.173"
+			timeRelativeToTestModuleStartTime="00:24.173"
+			timeWallClock="04:23:22"
+			time="00:24.173"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'NewTabProfile1MicrosoftEdge.Root.None' at 226;144.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'New tab - Profile 1 - Microsoft​']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='29469728']/?/?/container[@automationid='root']/text[@orientation='None']"
+				itempath="text[@orientation='None']"
+				fullname="react_demoRepository.NewTabProfile1MicrosoftEdge.Root.None"
+				id="4ff403bc38804368b8886de6842c4ec8"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.404"
+			timeRelativeToTestModuleStartTime="01:09.404"
+			timeWallClock="04:24:08"
+			time="01:09.404"
+			level="Info"
+			category="User"
+			errimg="images_OpenBrow_7889e3f3\OpenBrow_7889e3f3_1fd568b9_trace.jpg"
+			errthumb="images_OpenBrow_7889e3f3\OpenBrow_7889e3f3_1fd568b9_trace_thumb.jpg">
+			<message>
+				Item 'None' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Info"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.410"
+			timeRelativeToTestModuleStartTime="01:09.410"
+			timeWallClock="04:24:08"
+			time="01:09.410"
+			level="Warn"
+			category="Repository"
+			errimg="images_OpenBrow_7889e3f3\OpenBrow_7889e3f3_1fd568b9_trace.jpg"
+			errthumb="images_OpenBrow_7889e3f3\OpenBrow_7889e3f3_1fd568b9_trace_thumb.jpg">
+			<message>
+				Failed to update the cached element for folder 'react_demoRepository.NewTabProfile1MicrosoftEdge'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='29469728']/?/?/container[@automationid='root']/text[@orientation='None']"
+				invertedPath="self::text[@orientation='None']/parent::container[@automationid='root']/parent::?/parent::?/parent::container[@automationid='29469728']/ancestor-or-self::container/parent::container[@classname='BrowserView']/parent::?/parent::?/parent::container[@name='Microsoft Edge']/parent::container[@name>'React App - Microsoft Edg']/parent::*"
+				basePathToCachedFolder="/form[@title>'New tab - Profile 1 - Microsoft​']"
+				invertedBasePath="self::form[@title>'New tab - Profile 1 - Microsoft​']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'New tab - Profile 1 - Microsoft​']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.421"
+			timeRelativeToTestModuleStartTime="01:09.421"
+			timeWallClock="04:24:08"
+			time="01:09.421"
+			level="Error"
+			category="Module"
+			errimg="images_OpenBrow_7889e3f3\OpenBrow_7889e3f3_1fd568b9_trace.jpg"
+			errthumb="images_OpenBrow_7889e3f3\OpenBrow_7889e3f3_1fd568b9_trace_thumb.jpg">
+			<message>
+				Item 'react_demoRepository.NewTabProfile1MicrosoftEdge.Root.None' is no Text.<br/>The element does not support the required capability 'text'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at react_demo.react_demoRepositoryFolders.RootFolder.get_None() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\react_demoRepository.cs:line 982&#13;&#10;   at react_demo.OpenBrowser.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs:line 87&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Error"
+				id="4ff403bc38804368b8886de6842c4ec8"
+				path="/form[@title>'New tab - Profile 1 - Microsoft​']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='29469728']/?/?/container[@automationid='root']/text[@orientation='None']"
+				fullname="react_demoRepository.NewTabProfile1MicrosoftEdge.Root.None"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

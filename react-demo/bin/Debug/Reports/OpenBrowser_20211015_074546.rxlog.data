@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="64051"
+		type="root"
+		rid="240aeb02e27c8c58"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.2.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="4090x1916"
+		timestamp="10/15/2021 7:45:52 AM"
+		timestampiso="2021-10-15T14:45:52"
+		endtime="10/15/2021 7:46:56 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<errormessage>
+			Item 'react_demoRepository.TestAutomationForGUITestingRanore.Root1.None' is no Text.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.118"
+			timeRelativeToTestModuleStartTime="00:15.118"
+			timeWallClock="07:46:07"
+			time="00:15.118"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://localhost:3000' with browser 'EdgeChromium' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.482"
+			timeRelativeToTestModuleStartTime="00:16.482"
+			timeWallClock="07:46:09"
+			time="00:16.482"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TestAutomationForGUITestingRanore.Root1.None' at 108;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Test Automation for GUI Testing']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='61697056']/?/?/container[@automationid='root']/text[@orientation='None']"
+				itempath="text[@orientation='None']"
+				fullname="react_demoRepository.TestAutomationForGUITestingRanore.Root1.None"
+				id="611ce3c0b85440eeb1ecbffcb474a447"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.860"
+			timeRelativeToTestModuleStartTime="01:01.860"
+			timeWallClock="07:46:54"
+			time="01:01.860"
+			level="Info"
+			category="User"
+			errimg="images_OpenBrow_707661b5\OpenBrow_707661b5_43ff6b79_trace.jpg"
+			errthumb="images_OpenBrow_707661b5\OpenBrow_707661b5_43ff6b79_trace_thumb.jpg">
+			<message>
+				Item 'None' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Info"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.865"
+			timeRelativeToTestModuleStartTime="01:01.865"
+			timeWallClock="07:46:54"
+			time="01:01.865"
+			level="Warn"
+			category="Repository"
+			errimg="images_OpenBrow_707661b5\OpenBrow_707661b5_43ff6b79_trace.jpg"
+			errthumb="images_OpenBrow_707661b5\OpenBrow_707661b5_43ff6b79_trace_thumb.jpg">
+			<message>
+				Failed to update the cached element for folder 'react_demoRepository.TestAutomationForGUITestingRanore'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='61697056']/?/?/container[@automationid='root']/text[@orientation='None']"
+				invertedPath="self::text[@orientation='None']/parent::container[@automationid='root']/parent::?/parent::?/parent::container[@automationid='61697056']/ancestor-or-self::container/parent::container[@classname='BrowserView']/parent::?/parent::?/parent::container[@name='Microsoft Edge']/parent::container[@name>'React App - Microsoft Edg']/parent::*"
+				basePathToCachedFolder="/form[@title>'Test Automation for GUI Testing']"
+				invertedBasePath="self::form[@title>'Test Automation for GUI Testing']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'Test Automation for GUI Testing']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.912"
+			timeRelativeToTestModuleStartTime="01:01.912"
+			timeWallClock="07:46:54"
+			time="01:01.912"
+			level="Error"
+			category="Module"
+			errimg="images_OpenBrow_707661b5\OpenBrow_707661b5_43ff6b79_trace.jpg"
+			errthumb="images_OpenBrow_707661b5\OpenBrow_707661b5_43ff6b79_trace_thumb.jpg">
+			<message>
+				Item 'react_demoRepository.TestAutomationForGUITestingRanore.Root1.None' is no Text.<br/>The element does not support the required capability 'text'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at react_demo.react_demoRepositoryFolders.Root1Folder.get_None() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\react_demoRepository.cs:line 363&#13;&#10;   at react_demo.OpenBrowser.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs:line 87&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Error"
+				id="611ce3c0b85440eeb1ecbffcb474a447"
+				path="/form[@title>'Test Automation for GUI Testing']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='61697056']/?/?/container[@automationid='root']/text[@orientation='None']"
+				fullname="react_demoRepository.TestAutomationForGUITestingRanore.Root1.None"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

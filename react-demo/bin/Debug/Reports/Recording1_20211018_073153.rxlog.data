@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="52.4s"
+		durationms="52396"
+		type="root"
+		rid="ad2cfe337d977b4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="10.1.2.0"
+		host="WINDEV2108EVAL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="2894x1874"
+		timestamp="10/18/2021 7:31:59 AM"
+		timestampiso="2021-10-18T14:31:59"
+		endtime="10/18/2021 7:32:52 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'react_demoRepository.ReactAppAnd1MorePageProfile1.Root.ValidateThisText' does not match the specified value (actual='(null)', expected='Validate·this·text').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.744"
+			timeRelativeToTestModuleStartTime="00:10.744"
+			timeWallClock="07:32:10"
+			time="00:10.744"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ReactAppAnd1MorePageProfile1.Root.InputArea' at 184;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/text[@automationid='input-area']"
+				itempath="text[@automationid='input-area']"
+				fullname="react_demoRepository.ReactAppAnd1MorePageProfile1.Root.InputArea"
+				id="bafb784604b34b52b9520548b7e7b3b5"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.546"
+			timeRelativeToTestModuleStartTime="00:15.546"
+			timeWallClock="07:32:15"
+			time="00:15.546"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Validate this text' with focus on 'ReactAppAnd1MorePageProfile1.Root.InputArea'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/text[@automationid='input-area']"
+				itempath="text[@automationid='input-area']"
+				fullname="react_demoRepository.ReactAppAnd1MorePageProfile1.Root.InputArea"
+				id="bafb784604b34b52b9520548b7e7b3b5"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.624"
+			timeRelativeToTestModuleStartTime="00:15.624"
+			timeWallClock="07:32:15"
+			time="00:15.624"
+			level="Warn"
+			category="CEF">
+			<message>
+				UI elements in your CEF AUT can’t be identified because the remote debugging port isn’t enabled in your AUT or can’t be found. Make sure you’ve enabled it and set it to 8081.<br/>Process: 'msedge' (pid 5488)<br/>https://www.ranorex.com/help/v10.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="cef-chrome-debug-protocol-NotFound"
+				showInProgressDialog="False"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.266"
+			timeRelativeToTestModuleStartTime="00:17.266"
+			timeWallClock="07:32:17"
+			time="00:17.266"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ReactAppAnd1MorePageProfile1.Root.Submit' at 108;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/button[@name='Submit']"
+				itempath="button[@name='Submit']"
+				fullname="react_demoRepository.ReactAppAnd1MorePageProfile1.Root.Submit"
+				id="57b3d711b2a14a778b901ec3cf0060c5"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.974"
+			timeRelativeToTestModuleStartTime="00:18.974"
+			timeWallClock="07:32:18"
+			time="00:18.974"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Validate this text') on item 'ReactAppAnd1MorePageProfile1.Root.ValidateThisText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/?/?/text[@name='Validate this text']"
+				itempath="?/?/text[@name='Validate this text']"
+				fullname="react_demoRepository.ReactAppAnd1MorePageProfile1.Root.ValidateThisText"
+				id="a79e4e9a85574d82ace7ac605d0f9866"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.019"
+			timeRelativeToTestModuleStartTime="00:49.019"
+			timeWallClock="07:32:48"
+			time="00:49.019"
+			level="Info"
+			category="User"
+			errimg="images_Recordin_86955d76\Recordin_86955d76_30d449b9_trace.jpg"
+			errthumb="images_Recordin_86955d76\Recordin_86955d76_30d449b9_trace_thumb.jpg">
+			<message>
+				Item 'ValidateThisText' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs"
+				codeline="95"
+				loglvl="Info"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.064"
+			timeRelativeToTestModuleStartTime="00:52.064"
+			timeWallClock="07:32:51"
+			time="00:52.064"
+			level="Failure"
+			category="Validation"
+			errimg="images_Recordin_86955d76\Recordin_86955d76_add27c16_trace.jpg"
+			errthumb="images_Recordin_86955d76\Recordin_86955d76_add27c16_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'react_demoRepository.ReactAppAnd1MorePageProfile1.Root.ValidateThisText' does not match the specified value (actual='(null)', expected='Validate·this·text').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/?/?/text[@name='Validate this text']"
+				itempath="?/?/text[@name='Validate this text']"
+				fullname="react_demoRepository.ReactAppAnd1MorePageProfile1.Root.ValidateThisText"
+				id="a79e4e9a85574d82ace7ac605d0f9866"
+				timeout="90000"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs"
+				codeline="95"
+				loglvl="Failure"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.072"
+			timeRelativeToTestModuleStartTime="00:52.072"
+			timeWallClock="07:32:51"
+			time="00:52.072"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_86955d76\Recordin_86955d76_add27c16_trace.jpg"
+			errthumb="images_Recordin_86955d76\Recordin_86955d76_add27c16_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'react_demoRepository.ReactAppAnd1MorePageProfile1.Root.ValidateThisText' does not match the specified value (actual='(null)', expected='Validate·this·text').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at react_demo.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\User\Documents\Ranorex\RanorexStudio Projects\react-demo\react-demo\Recording1.cs"
+				codeline="95"
+				type="repoitem"
+				path="/form[@title>'React App and 1 more page']/container[@name>'React App - Microsoft Edg']/container[@name='Microsoft Edge']/?/?/container[@classname='BrowserView']/container[3]//container[@automationid='24220640']/?/?/container[@automationid='root']/?/?/text[@name='Validate this text']"
+				itempath="?/?/text[@name='Validate this text']"
+				fullname="react_demoRepository.ReactAppAnd1MorePageProfile1.Root.ValidateThisText"
+				id="a79e4e9a85574d82ace7ac605d0f9866"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

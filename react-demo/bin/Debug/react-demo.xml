@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>react-demo</name>
+    </assembly>
+    <members>
+        <member name="T:react_demo.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:react_demo.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the react_demoRepository repository.
+            </summary>
+        </member>
+        <member name="M:react_demo.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:react_demo.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:react_demo.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:react_demo.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:react_demo.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:react_demo.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:react_demo.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:react_demo.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the react_demoRepository repository.
+            </summary>
+        </member>
+        <member name="M:react_demo.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:react_demo.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:react_demo.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:react_demo.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:react_demo.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:react_demo.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:react_demo.PerfromAction">
+             <summary>
+            The PerfromAction recording.
+             </summary>
+        </member>
+        <member name="F:react_demo.PerfromAction.repo">
+            <summary>
+            Holds an instance of the react_demoRepository repository.
+            </summary>
+        </member>
+        <member name="M:react_demo.PerfromAction.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:react_demo.PerfromAction.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:react_demo.PerfromAction.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:react_demo.PerfromAction.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:react_demo.PerfromAction.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:react_demo.PerfromAction.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepository">
+            <summary>
+            The class representing the react_demoRepository element repository.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the react_demoRepository element repository.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.TestAutomationForGUITestingRanore">
+            <summary>
+            The TestAutomationForGUITestingRanore folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.NewTabProfile1MicrosoftEdge">
+            <summary>
+            The NewTabProfile1MicrosoftEdge folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.ReactAppAnd1MorePageProfile1">
+            <summary>
+            The ReactAppAnd1MorePageProfile1 folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepository.ReactApp">
+            <summary>
+            The ReactApp folder.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder">
+            <summary>
+            The TestAutomationForGUITestingRanoreAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TestAutomationForGUITestingRanore  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.ContentsSeparator">
+            <summary>
+            The ContentsSeparator item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.ContentsSeparatorInfo">
+            <summary>
+            The ContentsSeparator item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.View1000">
+            <summary>
+            The View1000 item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.View1000Info">
+            <summary>
+            The View1000 item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.Root1">
+            <summary>
+            The Root1 folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.Root2">
+            <summary>
+            The Root2 folder.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.Root1Folder">
+            <summary>
+            The Root1Folder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.Root1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Root1  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.Root">
+            <summary>
+            The Root item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.RootInfo">
+            <summary>
+            The Root item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.AddingSolution">
+            <summary>
+            The AddingSolution item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.AddingSolutionInfo">
+            <summary>
+            The AddingSolution item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.Root2Folder">
+            <summary>
+            The Root2Folder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.Root2Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Root2  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.Root">
+            <summary>
+            The Root item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.RootInfo">
+            <summary>
+            The Root item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.VALIDATETHISTEXT">
+            <summary>
+            The VALIDATETHISTEXT item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.VALIDATETHISTEXTInfo">
+            <summary>
+            The VALIDATETHISTEXT item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.Submit1">
+            <summary>
+            The Submit1 item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.Submit1Info">
+            <summary>
+            The Submit1 item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.None1">
+            <summary>
+            The None1 item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder.None1Info">
+            <summary>
+            The None1 item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ExplorerAppFolder.TrayClockWClass">
+            <summary>
+            The TrayClockWClass item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ExplorerAppFolder.TrayClockWClassInfo">
+            <summary>
+            The TrayClockWClass item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ExplorerAppFolder.MicrosoftEdge">
+            <summary>
+            The MicrosoftEdge item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ExplorerAppFolder.MicrosoftEdgeInfo">
+            <summary>
+            The MicrosoftEdge item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder">
+            <summary>
+            The NewTabProfile1MicrosoftEdgeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTabProfile1MicrosoftEdge  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.NewTabMicrosoftEdge">
+            <summary>
+            The NewTabMicrosoftEdge folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.Root">
+            <summary>
+            The Root folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.Root1">
+            <summary>
+            The Root1 folder.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder">
+            <summary>
+            The NewTabMicrosoftEdgeFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTabMicrosoftEdge  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.SomeContainer1">
+            <summary>
+            The SomeContainer1 item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.SomeContainer1Info">
+            <summary>
+            The SomeContainer1 item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.DisneyPlus">
+            <summary>
+            The DisneyPlus item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.NewTabMicrosoftEdgeFolder.DisneyPlusInfo">
+            <summary>
+            The DisneyPlus item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.RootFolder">
+            <summary>
+            The RootFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.RootFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Root  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder.ValidateThisText">
+            <summary>
+            The ValidateThisText item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder.ValidateThisTextInfo">
+            <summary>
+            The ValidateThisText item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.Root1Folder1">
+            <summary>
+            The Root1Folder1 folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.Root1Folder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Root1  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder1.Validate">
+            <summary>
+            The Validate item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder1.ValidateInfo">
+            <summary>
+            The Validate item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder1.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder1.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder1.InputArea">
+            <summary>
+            The InputArea item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root1Folder1.InputAreaInfo">
+            <summary>
+            The InputArea item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Explorer1AppFolder.ReactAppAnd1MorePageProfile1">
+            <summary>
+            The ReactAppAnd1MorePageProfile1 item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Explorer1AppFolder.ReactAppAnd1MorePageProfile1Info">
+            <summary>
+            The ReactAppAnd1MorePageProfile1 item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.ReactAppAnd1MorePageProfile1AppFolder">
+            <summary>
+            The ReactAppAnd1MorePageProfile1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.ReactAppAnd1MorePageProfile1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ReactAppAnd1MorePageProfile1  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ReactAppAnd1MorePageProfile1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ReactAppAnd1MorePageProfile1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ReactAppAnd1MorePageProfile1AppFolder.Root">
+            <summary>
+            The Root folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ReactAppAnd1MorePageProfile1AppFolder.Root2">
+            <summary>
+            The Root2 folder.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.RootFolder1">
+            <summary>
+            The RootFolder1 folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.RootFolder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Root  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder1.ValidateThisText">
+            <summary>
+            The ValidateThisText item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder1.ValidateThisTextInfo">
+            <summary>
+            The ValidateThisText item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder1.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder1.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder1.InputArea">
+            <summary>
+            The InputArea item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.RootFolder1.InputAreaInfo">
+            <summary>
+            The InputArea item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.Root2Folder1">
+            <summary>
+            The Root2Folder1 folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.Root2Folder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Root2  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.Root1">
+            <summary>
+            The Root1 item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.Root1Info">
+            <summary>
+            The Root1 item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.ValidateThisText">
+            <summary>
+            The ValidateThisText item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.ValidateThisTextInfo">
+            <summary>
+            The ValidateThisText item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.InputArea">
+            <summary>
+            The InputArea item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.Root2Folder1.InputAreaInfo">
+            <summary>
+            The InputArea item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.ReactAppAppFolder">
+            <summary>
+            The ReactAppAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.ReactAppAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ReactApp  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ReactAppAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ReactAppAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ReactAppAppFolder.Container">
+            <summary>
+            The Container folder.
+            </summary>
+        </member>
+        <member name="T:react_demo.react_demoRepositoryFolders.ContainerFolder">
+            <summary>
+            The ContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:react_demo.react_demoRepositoryFolders.ContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Container  folder.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ContainerFolder.SubContainer">
+            <summary>
+            The SubContainer item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ContainerFolder.SubContainerInfo">
+            <summary>
+            The SubContainer item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ContainerFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ContainerFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ContainerFolder.EnteringTextForValidation">
+            <summary>
+            The EnteringTextForValidation item.
+            </summary>
+        </member>
+        <member name="P:react_demo.react_demoRepositoryFolders.ContainerFolder.EnteringTextForValidationInfo">
+            <summary>
+            The EnteringTextForValidation item info.
+            </summary>
+        </member>
+        <member name="T:react_demo.ValidateText">
+             <summary>
+            The ValidateText recording.
+             </summary>
+        </member>
+        <member name="F:react_demo.ValidateText.repo">
+            <summary>
+            Holds an instance of the react_demoRepository repository.
+            </summary>
+        </member>
+        <member name="M:react_demo.ValidateText.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:react_demo.ValidateText.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:react_demo.ValidateText.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:react_demo.ValidateText.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:react_demo.ValidateText.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:react_demo.ValidateText.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

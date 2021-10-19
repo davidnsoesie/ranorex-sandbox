@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="43916e9d-73ad-4198-b385-c13f1b2d7709"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="react_demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="af831cef-e94b-4e78-8de9-20b05a18a808">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ac3e3aa1-d828-4719-a490-5ec3fd9a759d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='msedge']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="adb46a25-26d0-46ca-95de-9ba2174c057c"
+	name="react_demoRepository"
+	relativepath="react_demoRepository.rxrep">
+		<codegen
+		classname="react_demoRepository"
+		namespace="react_demo">
+		</codegen>
+		<rootfolder
+		id="d44b7d9f-63be-4933-9739-19adccdfabd8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
